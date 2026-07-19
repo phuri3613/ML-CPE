@@ -49,9 +49,6 @@ The project includes:
 - Correlation Heatmap
 - Burnout Risk Level Distribution (Count Plot)
 
-### 1. Distribution of Numerical Features
-
-The histogram below shows the distribution of all numerical variables in the dataset. It helps understand the spread, frequency, and overall characteristics of each feature.
 
 <p align="center">
     <img src="images/histogram.png" alt="Histogram" width="850">
@@ -61,9 +58,7 @@ The histogram below shows the distribution of all numerical variables in the dat
 
 ---
 
-### 2. Correlation Heatmap
 
-The heatmap below illustrates the correlation between numerical variables. Correlation values range from **-1 to 1**, where values closer to **1** indicate a strong positive relationship, values closer to **-1** indicate a strong negative relationship, and values near **0** indicate little or no relationship.
 
 <p align="center">
     <img src="images/heatmap.png" alt="Correlation Heatmap" width="650">
