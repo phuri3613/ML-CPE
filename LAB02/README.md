@@ -1,11 +1,12 @@
 # AI Impact on Students - Data Preprocessing
 
-## 📖 Project Overview 
-This project presents **Exploratory Data Analysis (EDA)** and **Data Preprocessing** on the **AI Impact on Students** dataset. The dataset contains information about students' academic performance, AI usage, study habits, stress levels, burnout risk, and learning behaviors. The objective of this project is to analyze the relationships among these factors and prepare the dataset for future machine learning applications. The workflow includes data exploration, visualization, missing value handling, duplicate removal, categorical feature encoding, and exporting the cleaned dataset. :contentReference
+## 📖 Project Overview
+
+This project presents **Exploratory Data Analysis (EDA)** and **Data Preprocessing** on the **AI Impact on Students** dataset. The dataset contains information about students' academic performance, AI usage, study habits, stress levels, burnout risk, and learning behaviors. The objective of this project is to analyze the relationships among these factors and prepare the dataset for future machine learning applications. The workflow includes data exploration, visualization, missing value handling, duplicate removal, categorical feature encoding, and exporting the cleaned dataset.
 
 ---
 
-## 🎯 Objectives 
+## 🎯 Objectives
 
 - Perform Exploratory Data Analysis (EDA)
 - Visualize numerical and categorical features
@@ -24,8 +25,7 @@ AI Impact on Students
 
 **Description**
 
-The dataset contains student-related information including demographics, GPA, AI usage hours, traditional study hours, AI dependency, burnout risk, anxiety level, sleep duration, and other educational factors. It is designed for data analysis, visualization, and machine learning practice. 
-
+The dataset contains student-related information including demographics, GPA, AI usage hours, traditional study hours, AI dependency, burnout risk, anxiety level, sleep duration, and other educational factors. It is designed for data analysis, visualization, and machine learning practice.
 
 ---
 
@@ -49,14 +49,36 @@ The project includes:
 - Correlation Heatmap
 - Burnout Risk Level Distribution (Count Plot)
 
+### 1. Distribution of Numerical Features
+
+The histogram below shows the distribution of all numerical variables in the dataset. It helps understand the spread, frequency, and overall characteristics of each feature.
+
+<p align="center">
+    <img src="images/histogram.png" alt="Histogram" width="850">
+</p>
+
+<p align="center"><b>Figure 1.</b> Distribution of Numerical Features</p>
+
+---
+
+### 2. Correlation Heatmap
+
+The heatmap below illustrates the correlation between numerical variables. Correlation values range from **-1 to 1**, where values closer to **1** indicate a strong positive relationship, values closer to **-1** indicate a strong negative relationship, and values near **0** indicate little or no relationship.
+
+<p align="center">
+    <img src="images/heatmap.png" alt="Correlation Heatmap" width="650">
+</p>
+
+<p align="center"><b>Figure 2.</b> Correlation Heatmap</p>
+
 ---
 
 ## 🛠 Programming Language
 
-- Python 
+- Python
 
 ## 📚 Libraries
- 
+
 - pandas
 - numpy
 - matplotlib
@@ -90,13 +112,12 @@ The program generates:
 
 ### Dataset
 
-Lavesh Jadon. **AI Impact on Students Dataset**.
+Lavesh Jadon. **AI Impact on Students Dataset**
 
 https://www.kaggle.com/datasets/laveshjadon/ai-impact-on-students
 
 ### Notebook Reference
 
-Rasya Arrafi. **Impact of AI on Students**.
+Rasya Arrafi. **Impact of AI on Students**
 
 https://www.kaggle.com/code/rasyaarrafi/impact-of-ai-on-students
-
