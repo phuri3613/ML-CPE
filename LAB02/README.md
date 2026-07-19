@@ -35,7 +35,6 @@ AI Impact on Students
 
 The dataset contains student-related information including demographics, GPA, AI usage hours, traditional study hours, AI dependency, burnout risk, anxiety level, sleep duration, and other educational factors. It is designed for data analysis, visualization, and machine learning practice. :contentReference[oaicite:2]{index=2}
 
-**ภาษาไทย**
 
 ชุดข้อมูลประกอบด้วยข้อมูลของนักศึกษา เช่น ข้อมูลพื้นฐาน เกรดเฉลี่ย (GPA) ชั่วโมงการใช้ AI ชั่วโมงการเรียนแบบดั้งเดิม ระดับการพึ่งพา AI ความเสี่ยงต่อภาวะหมดไฟ (Burnout Risk) ระดับความวิตกกังวล ชั่วโมงการนอน และปัจจัยอื่น ๆ ที่เกี่ยวข้องกับการศึกษา เหมาะสำหรับการวิเคราะห์ข้อมูล การสร้างภาพข้อมูล และการฝึกสร้างโมเดล Machine Learning
 
