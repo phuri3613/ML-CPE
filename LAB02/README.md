@@ -51,7 +51,7 @@ The project includes:
 
 
 <p align="center">
-    <img src="images/histogram.png" alt="Histogram" width="850">
+    <img src="images/Histogram.png" alt="Histogram" width="850">
 </p>
 
 <p align="center"><b>Figure 1.</b> Distribution of Numerical Features</p>
