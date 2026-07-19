@@ -1,11 +1,8 @@
 # AI Impact on Students - Data Preprocessing
 
 ## 📖 Project Overview | ภาพรวมโครงการ
-
-### English
 This project presents **Exploratory Data Analysis (EDA)** and **Data Preprocessing** on the **AI Impact on Students** dataset. The dataset contains information about students' academic performance, AI usage, study habits, stress levels, burnout risk, and learning behaviors. The objective of this project is to analyze the relationships among these factors and prepare the dataset for future machine learning applications. The workflow includes data exploration, visualization, missing value handling, duplicate removal, categorical feature encoding, and exporting the cleaned dataset. :contentReference[oaicite:0]{index=0}
 
-### ภาษาไทย
 โปรเจกต์นี้นำเสนอการวิเคราะห์ข้อมูลเบื้องต้น (Exploratory Data Analysis: EDA) และการเตรียมข้อมูล (Data Preprocessing) โดยใช้ชุดข้อมูล **AI Impact on Students** ซึ่งประกอบด้วยข้อมูลเกี่ยวกับผลการเรียน การใช้งาน AI พฤติกรรมการเรียน ระดับความเครียด ความเสี่ยงต่อภาวะหมดไฟ (Burnout Risk) และพฤติกรรมการเรียนรู้ของนักศึกษา จุดประสงค์ของโปรเจกต์คือการสำรวจความสัมพันธ์ของข้อมูลและเตรียมชุดข้อมูลให้พร้อมสำหรับการนำไปใช้ในงาน Machine Learning ต่อไป :contentReference[oaicite:1]{index=1}
 
 ---
@@ -18,8 +15,6 @@ This project presents **Exploratory Data Analysis (EDA)** and **Data Preprocessi
 - Remove duplicate records
 - Apply Label Encoding to categorical features
 - Export a cleaned dataset for machine learning
-
-### ภาษาไทย
 
 - วิเคราะห์ข้อมูลเบื้องต้น (EDA)
 - สร้างกราฟเพื่อศึกษาการกระจายและความสัมพันธ์ของข้อมูล
@@ -70,10 +65,10 @@ The project includes:
 
 ## 🛠 Programming Language
 
-- Python 3.x
+- Python 
 
 ## 📚 Libraries
-
+ 
 - pandas
 - numpy
 - matplotlib
