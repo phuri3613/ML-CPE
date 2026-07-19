@@ -51,7 +51,7 @@ The project includes:
 
 
 <p align="center">
-    <img src="images/Histogram.png" alt="Histogram" width="850">
+    <img src="heatmap.png" alt="Histogram" width="850">
 </p>
 
 <p align="center"><b>Figure 1.</b> Distribution of Numerical Features</p>
@@ -61,7 +61,7 @@ The project includes:
 
 
 <p align="center">
-    <img src="images/heatmap.png" alt="Correlation Heatmap" width="650">
+    <img src="histogram.png" alt="Correlation Heatmap" width="650">
 </p>
 
 <p align="center"><b>Figure 2.</b> Correlation Heatmap</p>
