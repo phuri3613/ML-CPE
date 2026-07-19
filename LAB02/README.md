@@ -51,21 +51,18 @@ The project includes:
 
 
 <p align="center">
-    <img src="heatmap.png" alt="Histogram" width="850">
+    <img src="Histogram.png" alt="Histogram" width="850">
 </p>
 
 <p align="center"><b>Figure 1.</b> Distribution of Numerical Features</p>
 
 ---
 
-
-
 <p align="center">
-    <img src="histogram.png" alt="Correlation Heatmap" width="650">
+    <img src="Correlation Heatmap.png" alt="Correlation Heatmap" width="650">
 </p>
 
 <p align="center"><b>Figure 2.</b> Correlation Heatmap</p>
-
 ---
 
 ## 🛠 Programming Language
