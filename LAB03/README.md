@@ -49,7 +49,7 @@
 * ผลการประเมิน Classification: Accuracy, Precision, Recall และ F1-score
 * กราฟ ROC Curve ประเมินประสิทธิภาพขั้นสูง
 
-## 📚 เอกสารอ้างอิง (References)
+##  เอกสารอ้างอิง (References)
 * **Dataset:** 
   joebeachcapital. *NBA Player Statistics*. 
   https://www.kaggle.com/datasets/joebeachcapital/nba-player-statistics
