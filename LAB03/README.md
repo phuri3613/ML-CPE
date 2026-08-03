@@ -30,7 +30,7 @@
 
 ---
 
-## 🛠 ภาษาโปรแกรม (Programming Language)
+##  ภาษาโปรแกรม (Programming Language)
 * Python 3
 
 ##  ไลบรารี (Libraries)
