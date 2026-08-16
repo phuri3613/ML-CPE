@@ -16,7 +16,7 @@
 
 ## โครงสร้างโปรเจกต์ (Project Structure)
 ```text
-LAB04-KNN/
+LAB04/
 ├── classification/
 │   ├── outputs/
 │   │   ├── 01_k_curve.png
