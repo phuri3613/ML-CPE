@@ -16,6 +16,7 @@
 
 ## โครงสร้างโปรเจกต์ (Project Structure)
 ```text
+LAB04/
 ├── MushroomImages/
 │   ├── edible mushroom/
 │   └── poisonous mushroom/
