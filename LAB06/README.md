@@ -106,3 +106,26 @@ LAB06/
 
 ## เอกสารอ้างอิง (References)
 * **Dataset:** Edible and Poisonous Mushroom Images Dataset: Kaggle https://www.kaggle.com/datasets/mdismielhossenabir/edible-and-poisonous-mushroom-images
+
+* ## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
+จากการทดลองฝึกสอนโมเดล Neural Network สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
+
+### 1. ประวัติการฝึกสอน (Training History)
+
+<div align="center">
+  <img src="outputs/training_history_config_2_20ep.png" width="80%">
+  <p><b>รูปที่ 1: Training History (Accuracy & Loss)</b></p>
+</div>
+
+* กราฟแสดงการเปลี่ยนแปลงของค่าความแม่นยำ (Accuracy) และค่าความสูญเสีย (Loss) ในระหว่างรอบการฝึกสอน 
+* เส้นกราฟ Validation (สีส้ม) มีความผันผวน (Fluctuation) ค่อนข้างสูงมากเมื่อเทียบกับ Training (สีน้ำเงิน) บ่งชี้ว่าโมเดลอาจเผชิญกับภาวะความไม่เสถียรระหว่างการเรียนรู้ หรือชุดข้อมูล Validation อาจมีขนาดเล็กและไม่ครอบคลุมลักษณะข้อมูลทั้งหมด
+
+### 2. เมทริกซ์ความสับสน (Confusion Matrix)
+
+<div align="center">
+  <img src="outputs/confusion_matrix_config_1_20ep.png" width="80%">
+  <p><b>รูปที่ 2: Confusion Matrix (Config 1 - 20 Epochs)</b></p>
+</div>
+
+* เมทริกซ์แสดงให้เห็นว่าโมเดลสามารถทำนายคลาส `poisonous mushroom` ได้ถูกต้อง 8 ตัวอย่าง และทำนาย `edible mushroom` ถูกต้องเพียง 4 ตัวอย่าง
+* โมเดลมีความผิดพลาดในการทำนายเห็ดที่กินได้ (True: edible) ว่าเป็นเห็ดมีพิษจำนวนถึง 4 ตัวอย่าง ซึ่งคิดเป็นสัดส่วนความผิดพลาดที่ค่อนข้างสูงสำหรับคลาสนี้
