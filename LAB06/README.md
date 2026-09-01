@@ -39,8 +39,8 @@ LAB06/
 │   ├── main.py
 │   ├── nn_model.py
 │   └── README.md
-    └── link-data.txt
-    └── requirements.txt
+│   └── link-data.txt
+│   └── requirements.txt
 
 ## ขั้นตอนการทำงาน (Project Workflow)
 1. **Data Loading & Preprocessing:** โหลดภาพ สกัดคุณลักษณะ และบันทึกข้อมูลเป็น `features.npy` และ `labels.npy` (`data_loader.py`)
