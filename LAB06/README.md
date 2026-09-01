@@ -52,7 +52,7 @@ LAB06/
 ## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
 จากการทดลองฝึกสอนโมเดล Neural Network (ตัวอย่างจากการตั้งค่า Config 1 จำนวน 20 Epochs) สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
 ### 1. ประวัติการฝึกสอน (Training History)
-![Training History](./outputs/training_history_config_1_20ep.png)
+![Training History](./outputs/confusion_matrix_config_1_20ep.png)
 * กราฟแสดงการเปลี่ยนแปลงของค่าความแม่นยำ (Accuracy) และค่าความสูญเสีย (Loss) ในระหว่างรอบการฝึกสอน 
 * เส้นกราฟ Validation (สีส้ม) มีความผันผวน (Fluctuation) ค่อนข้างสูงมากเมื่อเทียบกับ Training (สีน้ำเงิน) บ่งชี้ว่าโมเดลอาจเผชิญกับภาวะความไม่เสถียรระหว่างการเรียนรู้ หรือชุดข้อมูล Validation อาจมีขนาดเล็กและไม่ครอบคลุมลักษณะข้อมูลทั้งหมด
 
