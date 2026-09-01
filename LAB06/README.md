@@ -62,15 +62,12 @@ LAB06/
 4. **Model Evaluation:** นำประวัติการฝึกและผลการทำนายมาประเมินประสิทธิภาพ วาดกราฟเปรียบเทียบ Accuracy/Loss และ Confusion Matrix (`evaluate.py`)
 
 ## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
-จากการทดลองฝึกสอนโมเดล Neural Network (ตัวอย่างจากการตั้งค่า Config 1 จำนวน 20 Epochs) สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
-
-## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
-จากการทดลองฝึกสอนโมเดล Neural Network (ตัวอย่างจากการตั้งค่า Config 1 จำนวน 20 Epochs) สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
+จากการทดลองฝึกสอนโมเดล Neural Network สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
 
 ### 1. ประวัติการฝึกสอน (Training History)
 
 <div align="center">
-  <img src="outputs/training_history_config_1_20ep.png" width="80%">
+  <img src="outputs/training_history_config_1_20ep_3.png" width="80%">
   <p><b>รูปที่ 1: Training History (Accuracy & Loss)</b></p>
 </div>
 
@@ -80,7 +77,7 @@ LAB06/
 ### 2. เมทริกซ์ความสับสน (Confusion Matrix)
 
 <div align="center">
-  <img src="outputs/confusion_matrix_config_1_20ep.png" width="80%">
+  <img src="outputs/confusion_matrix_config_1_20ep_3.png" width="80%">
   <p><b>รูปที่ 2: Confusion Matrix (Config 1 - 20 Epochs)</b></p>
 </div>
 
@@ -90,7 +87,7 @@ LAB06/
 ### 3. ตัวอย่างผลการทำนาย (Prediction Sample)
 
 <div align="center">
-  <img src="outputs/prediction_sample.png" width="80%">
+  <img src="outputs/prediction_sample_3.png" width="80%">
   <p><b>รูปที่ 3: Prediction Sample</b></p>
 </div>
 
