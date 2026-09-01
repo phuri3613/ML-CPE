@@ -52,17 +52,17 @@ LAB06/
 ## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
 จากการทดลองฝึกสอนโมเดล Neural Network (ตัวอย่างจากการตั้งค่า Config 1 จำนวน 20 Epochs) สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
 ### 1. ประวัติการฝึกสอน (Training History)
-![Training History](outputs/training_history_config_1_20ep_2.png)
+![Training History](./outputs/training_history_config_1_20ep.png)
 * กราฟแสดงการเปลี่ยนแปลงของค่าความแม่นยำ (Accuracy) และค่าความสูญเสีย (Loss) ในระหว่างรอบการฝึกสอน 
 * เส้นกราฟ Validation (สีส้ม) มีความผันผวน (Fluctuation) ค่อนข้างสูงมากเมื่อเทียบกับ Training (สีน้ำเงิน) บ่งชี้ว่าโมเดลอาจเผชิญกับภาวะความไม่เสถียรระหว่างการเรียนรู้ หรือชุดข้อมูล Validation อาจมีขนาดเล็กและไม่ครอบคลุมลักษณะข้อมูลทั้งหมด
 
 ### 2. เมทริกซ์ความสับสน (Confusion Matrix)
-![Confusion Matrix](outputs/confusion_matrix_config_1_20ep_2.png)
+![Confusion Matrix](./outputs/confusion_matrix_config_1_20ep.png)
 * เมทริกซ์แสดงให้เห็นว่าโมเดลสามารถทำนายคลาส `poisonous mushroom` ได้ถูกต้อง 8 ตัวอย่าง และทำนาย `edible mushroom` ถูกต้องเพียง 4 ตัวอย่าง
 * โมเดลมีความผิดพลาดในการทำนายเห็ดที่กินได้ (True: edible) ว่าเป็นเห็ดมีพิษจำนวนถึง 4 ตัวอย่าง ซึ่งคิดเป็นสัดส่วนความผิดพลาดที่ค่อนข้างสูงสำหรับคลาสนี้
 
 ### 3. ตัวอย่างผลการทำนาย (Prediction Sample)
-![Prediction Sample](outputs/prediction_sample_2.png)
+![Prediction Sample](./outputs/prediction_sample.png)
 * จากการสุ่มภาพมาทดสอบ 4 ภาพ โมเดลสามารถทำนายได้ถูกต้องเพียง 2 ภาพ (ความแม่นยำ 50% สำหรับกลุ่มตัวอย่างนี้)
 * สิ่งที่น่าสังเกตจากภาพคือ **โมเดลเกิดความเอนเอียง (Model Bias) อย่างรุนแรง** โดยทำนายผลลัพธ์ของทั้ง 4 ภาพว่าเป็น `edible mushroom` ทั้งหมดด้วยค่าความมั่นใจ (Confidence) ที่สูงเกิน 88% ทุกภาพ แม้ว่าความจริงแล้วจะมีภาพเห็ดมีพิษปะปนอยู่ด้วยก็ตาม (ถือเป็น False Positive ที่อันตรายมากในบริบทของการจำแนกเห็ดพิษ)
 * 
