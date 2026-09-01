@@ -21,7 +21,11 @@ LAB06/
 │   ├── edible mushroom/
 │   └── poisonous mushroom/
 └── classification/
+    ├── __pycache__/
     ├── outputs/
+    │   ├── X_test.npy
+    │   ├── X_train.npy
+    │   ├── X_val.npy
     │   ├── classes.json
     │   ├── confusion_matrix_config_1_20ep.png
     │   ├── confusion_matrix_config_1_50ep.png
@@ -33,11 +37,19 @@ LAB06/
     │   ├── history_config_2_20ep.json
     │   ├── history_config_2_50ep.json
     │   ├── labels.npy
-    │   └── nn_model_config_1_20ep.keras
+    │   ├── nn_model_config_1_20ep.keras
+    │   ├── training_history_config_2_20ep.png
+    │   ├── training_history_config_2_50ep.png
+    │   ├── y_test.npy
+    │   ├── y_train.npy
+    │   └── y_val.npy
     ├── data_loader.py
     ├── evaluate.py
     ├── main.py
     ├── nn_model.py
+    ├── preprocessing.py
+    ├── split_data.py
+    ├── test_nn.py
     ├── README.md
     ├── link-data.txt
     └── requirements.txt
@@ -48,6 +60,9 @@ LAB06/
 2. **Model Definition:** กำหนดโครงสร้างของ Neural Network สำหรับการทดลองแต่ละ Configuration (`nn_model.py`)
 3. **Model Training:** ฝึกสอนโมเดลตาม Configuration และจำนวน Epochs (20 และ 50) ที่กำหนด พร้อมเก็บบันทึกประวัติการฝึกเป็นไฟล์ `.json` และตัวโมเดลเป็นไฟล์ `.keras` (`main.py`)
 4. **Model Evaluation:** นำประวัติการฝึกและผลการทำนายมาประเมินประสิทธิภาพ วาดกราฟเปรียบเทียบ Accuracy/Loss และ Confusion Matrix (`evaluate.py`)
+
+## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
+จากการทดลองฝึกสอนโมเดล Neural Network (ตัวอย่างจากการตั้งค่า Config 1 จำนวน 20 Epochs) สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
 
 ## การแสดงผลข้อมูลและการประเมินผล (Data Visualization & Model Evaluation)
 จากการทดลองฝึกสอนโมเดล Neural Network (ตัวอย่างจากการตั้งค่า Config 1 จำนวน 20 Epochs) สามารถสรุปและวิเคราะห์ประสิทธิภาพของโมเดลผ่านกราฟผลลัพธ์ได้ดังนี้:
