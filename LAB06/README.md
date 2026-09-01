@@ -67,7 +67,7 @@ LAB06/
 ### 1. ประวัติการฝึกสอน (Training History)
 
 <div align="center">
-  <img src="outputs/training_history_config_1_20ep_3.png" width="80%">
+  <img src="outputs/training_history_config_1_20ep.png" width="80%">
   <p><b>รูปที่ 1: Training History (Accuracy & Loss)</b></p>
 </div>
 
@@ -77,7 +77,7 @@ LAB06/
 ### 2. เมทริกซ์ความสับสน (Confusion Matrix)
 
 <div align="center">
-  <img src="outputs/confusion_matrix_config_1_20ep_3.png" width="80%">
+  <img src="outputs/confusion_matrix_config_1_20ep.png" width="80%">
   <p><b>รูปที่ 2: Confusion Matrix (Config 1 - 20 Epochs)</b></p>
 </div>
 
@@ -87,7 +87,7 @@ LAB06/
 ### 3. ตัวอย่างผลการทำนาย (Prediction Sample)
 
 <div align="center">
-  <img src="outputs/prediction_sample_3.png" width="80%">
+  <img src="outputs/prediction_sample.png" width="80%">
   <p><b>รูปที่ 3: Prediction Sample</b></p>
 </div>
 
