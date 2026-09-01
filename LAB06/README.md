@@ -72,3 +72,7 @@ LAB06/
 
 ## ผลลัพธ์ที่ได้ (Output)
 หลังจากการรันระบบเสร็จสิ้น โมเดล `.keras` ที่ถูกฝึกสอนสำเร็จ ประวัติการทำงาน (`.json`) ข้อมูลอาร์เรย์ และรูปภาพกราฟผลการประเมินทั้งหมด จะถูกบันทึกและจัดเก็บโดยอัตโนมัติในโฟลเดอร์ `classification/outputs/`
+
+
+## เอกสารอ้างอิง (References)
+* **Dataset:** Edible and Poisonous Mushroom Images Dataset: Kaggle https://www.kaggle.com/datasets/mdismielhossenabir/edible-and-poisonous-mushroom-images
