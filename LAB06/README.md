@@ -106,3 +106,24 @@ LAB06/
 
 ## เอกสารอ้างอิง (References)
 * **Dataset:** Edible and Poisonous Mushroom Images Dataset: Kaggle https://www.kaggle.com/datasets/mdismielhossenabir/edible-and-poisonous-mushroom-images
+
+### 1. ประวัติการฝึกสอน (Training History)
+
+**รูปที่ 1: Training History (Accuracy & Loss)**
+![Training History](outputs/training_history_config_2_20ep.png)
+
+* กราฟแสดงการเปลี่ยนแปลงของค่าความแม่นยำ (Accuracy) และค่าความสูญเสีย (Loss) ในระหว่างรอบการฝึกสอน 
+
+### 2. เมทริกซ์ความสับสน (Confusion Matrix)
+
+**รูปที่ 2: Confusion Matrix (Config 1 - 20 Epochs)**
+![Confusion Matrix](outputs/confusion_matrix_config_1_20ep.png)
+
+* เมทริกซ์แสดงให้เห็นว่าโมเดลสามารถทำนายคลาส `poisonous mushroom` ได้ถูกต้อง 8 ตัวอย่าง และทำนาย `edible mushroom` ถูกต้องเพียง 4 ตัวอย่าง
+
+### 3. ตัวอย่างผลการทำนาย (Prediction Sample)
+
+**รูปที่ 3: Prediction Sample**
+![Prediction Sample](outputs/prediction_sample.png)
+
+* จากการสุ่มภาพมาทดสอบ 4 ภาพ โมเดลสามารถทำนายได้ถูกต้องเพียง 2 ภาพ (ความแม่นยำ 50% สำหรับกลุ่มตัวอย่างนี้)
