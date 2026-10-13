@@ -44,7 +44,9 @@ LAB07/
     ├── preprocessing.py
     ├── split_data.py
     ├── test_cnn.py
-    └── README.md
+    └── Readme.md
+    └── link-data.txt
+    └── requirements.txt
 ```
 
 ## ขั้นตอนการทำงาน (Project Workflow)
