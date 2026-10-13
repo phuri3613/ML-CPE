@@ -44,7 +44,7 @@ LAB07/
     ├── preprocessing.py
     ├── split_data.py
     ├── test_cnn.py
-    └── Readme.md
+    └── README.md
     └── link-data.txt
     └── requirements.txt
 ```
