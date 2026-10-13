@@ -13,7 +13,7 @@
 ## ชุดข้อมูล (Dataset)
 - **ชื่อชุดข้อมูล:** Edible and Poisonous Mushroom Images
 - **คำอธิบาย:** ชุดข้อมูลรูปภาพ (Image Data) ของเห็ด แบ่งย่อยเป็น 2 คลาส ได้แก่ `edible mushroom/` (เห็ดที่รับประทานได้) และ `poisonous mushroom/` (เห็ดมีพิษ)
-- **ที่มา (Source):** Kaggle
+- **ที่มา (Source):** Kaggle https://www.kaggle.com/datasets/mdismielhossenabir/edible-and-poisonous-mushroom-images
 
 ## โครงสร้างโปรเจกต์ (Project Structure)
 ```text
