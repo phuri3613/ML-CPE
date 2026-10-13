@@ -64,7 +64,7 @@ LAB07/
 - **ภาพรวมการเทรน:** การยืดระยะเวลา Patience ของ Early Stopping ช่วยให้กราฟสามารถเทรนต่อเนื่องไปได้ไกลขึ้นและมีโอกาสลู่เข้า (Converge) ได้ดีกว่าเดิม
 
 ### 2. เมทริกซ์ความสับสน (Confusion Matrix)
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](classificati/onoutputs/confusion_matrix.png)
 
 - *คำอธิบาย: เมทริกซ์แสดงผลการทดสอบการจำแนกประเภทเห็ดของโมเดลเทียบกับความจริง เพื่อตรวจสอบความเอนเอียง (Bias) และความแม่นยำในการแยกแยะคลาสที่มีพิษและไม่มีพิษ*
 
