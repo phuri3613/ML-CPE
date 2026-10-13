@@ -1,0 +1,4 @@
+Dataset Name: Edible and Poisonous Mushroom Images
+Source: Kaggle
+
+URL: https://www.kaggle.com/datasets/mdismielhossenabir/edible-and-poisonous-mushroom-images
