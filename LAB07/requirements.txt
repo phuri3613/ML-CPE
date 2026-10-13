@@ -1,0 +1,16 @@
+# Core Machine Learning & Neural Network Libraries (GPU Support Version)
+tensorflow==2.10.0
+
+# Image Processing & Data Manipulation
+opencv-python
+scikit-learn
+matplotlib
+
+# Array Operations (Downgraded to <2 to prevent compatibility issues with TF 2.10)
+numpy<2
+
+# ---------------------------------------------------------
+# Note for setting up GPU on Windows (Anaconda):
+# Please run this conda command BEFORE pip installing the requirements above:
+# conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0 -y
+# ---------------------------------------------------------
