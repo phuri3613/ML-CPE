@@ -24,13 +24,22 @@ LAB08/
 └── classification/
     ├── __pycache__/
     ├── outputs/
+    │   ├── X_test.npy
+    │   ├── X_train.npy
+    │   ├── classes.json
     │   ├── confusion_matrix_exp1.png
     │   ├── confusion_matrix_exp2.png
     │   ├── confusion_matrix_exp3.png
+    │   └── features.npy
+    │   ├── history.json
+    │   ├── labels.npy
     │   ├── prediction_sample.png
     │   ├── training_history_exp1.png
     │   ├── training_history_exp2.png
-    │   └── training_history_exp3.png
+    │   ├── training_history_exp3.png
+    │   └── y_test.npy
+    │   ├── y_train.npy
+    │   └── y_val.npy
     ├── data_loader.py
     ├── evaluate.py
     ├── main.py
@@ -39,6 +48,8 @@ LAB08/
     ├── test_vgg.py
     ├── vgg_model.py
     └── README.md
+    └── link-data.txt
+    └── requirements.txt
 ```
 
 ## ขั้นตอนการทำงาน (Project Workflow)
