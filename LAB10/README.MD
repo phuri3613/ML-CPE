@@ -48,7 +48,7 @@ ML-10-Object Detection II/
 ### 1. ผลการประเมินประสิทธิภาพ (Evaluation Metrics)
 | Configuration | Precision | Recall | mAP50 | mAP50-95 |
 | :--- | :---: | :---: | :---: | :---: |
-| Config 1 (10 Epochs, imgsz=480, batch=8) | *(นำค่าจาก Terminal มาใส่)* | *(นำค่าจาก Terminal มาใส่)* | *(นำค่าจาก Terminal มาใส่)* | *(นำค่าจาก Terminal มาใส่)* |
+| Config 1 (10 Epochs, imgsz=480, batch=8) | *0.71194* | *0.45042* | *0.50396* | 0.32951 |
 | Config 2 (20 Epochs, imgsz=640, batch=16)| *(นำค่าจาก Terminal มาใส่)* | *(นำค่าจาก Terminal มาใส่)* | *(นำค่าจาก Terminal มาใส่)* | *(นำค่าจาก Terminal มาใส่)* |
 
 **วิเคราะห์ผล:** *(เพิ่มคำอธิบายเปรียบเทียบว่า Config ใดให้ค่าความแม่นยำและการตรวจจับครอบคลุมที่ดีกว่ากันหลังจากเพิ่มจำนวน Epochs และขยายขนาดภาพ)*
