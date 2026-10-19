@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Capacitor', 'IC', 'LED', 'Resistor', 'connector', 'diode', 'inductor', 'potentiometer', 'relay', 'transistor']
+
+roboflow:
+  workspace: rahul-lmk51
+  project: mydataset-ohm6o-zlegu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rahul-lmk51/mydataset-ohm6o-zlegu/dataset/1
