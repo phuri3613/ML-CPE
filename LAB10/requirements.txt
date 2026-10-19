@@ -1,4 +1,4 @@
-# PyTorch Nightly Build for NVIDIA RTX 50 Series (CUDA 12.8 / sm_120)
+# PyTorch Nightly Build for NVIDIA  (CUDA 12.8 / sm_120)
 --extra-index-url https://download.pytorch.org/whl/nightly/cu128
 torch
 torchvision
