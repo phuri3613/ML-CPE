@@ -1,4 +1,4 @@
-# Machine Learning Project: การตรวจจับชิ้นส่วนอิเล็กทรอนิกส์บนแผงวงจร (PCB Components Object Detection - YOLOv8)
+# Machine Learning Project: การตรวจจับชิ้นส่วนอิเล็กทรอนิกส์บนแผงวงจร (PCB Electronic Components Dataset)
 
 ## ภาพรวมโปรเจกต์ (Project Overview)
 โปรเจกต์นี้เป็นการประยุกต์ใช้เทคนิค Deep Learning ทางด้านคอมพิวเตอร์วิทัศน์ (Computer Vision) โดยใช้สถาปัตยกรรมโครงข่าย YOLOv8 (You Only Look Once version 8) ในการตรวจจับและจำแนกประเภทชิ้นส่วนอิเล็กทรอนิกส์บนแผงวงจรพิมพ์ (PCB Components) โดยเน้นไปที่การศึกษาและเปรียบเทียบประสิทธิภาพระหว่างการตั้งค่าพารามิเตอร์การฝึกสอน (Training Configuration) 2 รูปแบบที่แตกต่างกัน (ปรับจำนวน Epochs, ขนาดภาพ และ Batch Size) นอกจากนี้ โปรเจกต์ยังมุ่งเน้นการแก้ปัญหาคอขวดในการประมวลผล ด้วยการตั้งค่าสภาพแวดล้อม (Environment) เฉพาะทางให้รองรับ PyTorch Nightly Build (CUDA 12.8) เพื่อดึงพลังการประมวลผลจากการ์ดจอสถาปัตยกรรมใหม่มาใช้รันโมเดลด้วยความเร็วสูงสุด พร้อมทดสอบการทำงานทั้งในรูปแบบภาพนิ่งและวิดีโอแบบเรียลไทม์
@@ -11,9 +11,9 @@
 - พัฒนาระบบทดสอบการตรวจจับแบบอัตโนมัติ (Automated Search) และการตรวจจับสดผ่านกล้องเว็บแคม (Real-time Inference)
 
 ## ชุดข้อมูล (Dataset)
-- **ชื่อชุดข้อมูล:** PCB Electronic Components
+- **ชื่อชุดข้อมูล:** PCB Electronic Components Dataset
 - **คำอธิบาย:** ชุดข้อมูลรูปภาพ (Image Data) ของแผงวงจรอิเล็กทรอนิกส์ที่ถูกจัดเตรียมในรูปแบบ YOLO Format โดยมีไฟล์ Labels กำหนดพิกัด Bounding Box ของชิ้นส่วนประเภทต่างๆ ข้อมูลถูกแบ่งสัดส่วนออกเป็นชุด `train/` (สำหรับการฝึกสอน), `valid/` (สำหรับการตรวจสอบ) และ `test/` (สำหรับการทดสอบ)
-- **ที่มา (Source):** Kaggle
+- **ที่มา (Source):** Kaggle https://www.kaggle.com/datasets/rahul14112003/pcb-electronic-components-dataset
 
 ## โครงสร้างโปรเจกต์ (Project Structure)
 ```text
@@ -70,7 +70,7 @@ ML-10-Object Detection II/
 ## ภาษาโปรแกรมและไลบรารี (Programming Language & Libraries)
 - **ภาษาโปรแกรม:** Python 3.10
 - **Environment:** Anaconda (Environment `yolo_gpu`)
-- **ฮาร์ดแวร์ประมวลผล:** NVIDIA GeForce RTX 5060 (CUDA Capability sm_120)
+- **ฮาร์ดแวร์ประมวลผล:** NVIDIA GeForce  (CUDA Capability sm_120)
 - **ไลบรารีหลัก:**
   - `torch`, `torchvision`, `torchaudio` (เวอร์ชัน Pre-release/Nightly รองรับ **cu128** สำหรับสถาปัตยกรรม GPU ใหม่)
   - `ultralytics` (YOLOv8 Framework)
