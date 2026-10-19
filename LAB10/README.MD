@@ -59,7 +59,7 @@ ML-10-Object Detection II/
 **Training History:** กราฟแสดงแนวโน้มค่า Loss (Box Loss, Object Loss, Class Loss) ที่ลดลงอย่างต่อเนื่อง แสดงให้เห็นว่าโมเดลเรียนรู้โครงสร้างของแผงวงจรและสามารถจำแนกพิกัดของชิ้นส่วนได้ดีขึ้นในแต่ละ Epoch โดยไม่มีอาการ Overfitting ชัดเจน
 
 ### 3. ผลการทดสอบจากรูปภาพ (Image Detection Results)
-![Detection Sample](runs/image_test/PCBA_42_jpg.rf.50c252361b85a191ac3a6d52726039d8) 
+![Detection Sample](runs/image_test/PCBA_39_jpg.rf.6fb3f1701240c743f015b67c99b91996.jpg) 
 *(แทนที่ชื่อไฟล์ sample_image.jpg ด้วยชื่อรูปจริงจากโฟลเดอร์ image_test)*
 
 จากการสุ่มภาพจำนวน 5 ภาพ โมเดลสามารถตีกรอบครอบวัตถุเป้าหมายบนแผงวงจรพร้อมระบุคลาสได้อย่างแม่นยำ แม้ชิ้นส่วนจะมีขนาดเล็กและทับซ้อนกัน
