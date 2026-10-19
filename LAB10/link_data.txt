@@ -1,1 +1,1 @@
-https://www.kaggle.com/datasets/aryanstein/pcb-component-detection-consolidated-dataset
+https://www.kaggle.com/datasets/rahul14112003/pcb-electronic-components-dataset
