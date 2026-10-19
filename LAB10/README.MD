@@ -22,6 +22,7 @@ ML-10-Object Detection II/
 │   ├── test/
 │   ├── train/
 │   └── valid/
+│   └── data.yaml
 ├── runs/
 │   ├── detect/
 │   │   └── runs/
@@ -30,7 +31,9 @@ ML-10-Object Detection II/
 │   └── image_test/
 ├── evaluate.py
 ├── image_test.py
+├── link_data.txt
 ├── realtime_test.py
+├── requirements.txt
 ├── train.py
 ├── yolov8n.pt
 └── README.md
